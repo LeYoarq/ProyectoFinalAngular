@@ -1,0 +1,56 @@
+.container-header {
+    display: flex;
+    justify-content: space-between;
+}
+.image-logo {
+    width: 80%;
+    height: 80%;
+}
+.span-image {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.header-title {
+    font-family: "bai";
+    letter-spacing: 0.5px;
+    font-size: 25px;
+  }
+  
+  .a {
+    font-family: "bai";
+    letter-spacing: 0.5px;
+    font-size: 25px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .navbar-expand {
+      justify-content: center;
+  }
+  .container-list {
+    display: flex;
+  }
+  

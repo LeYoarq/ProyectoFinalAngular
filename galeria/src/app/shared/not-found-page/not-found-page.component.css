@@ -1,0 +1,8 @@
+.size-image {
+    width: 60%;
+    height: 60%;
+}
+.container-image_not_found {
+    display: flex;
+    justify-content: center;
+}

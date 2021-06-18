@@ -1,0 +1,17 @@
+<div class="container-fluid mt-3 container-ancho_tabla-width">
+    <div class="row">
+        <div class="d-flex justify-content-start">
+            <h2>CERVEZAS ROJAS</h2>
+        </div>
+    </div>
+    <div class="container-cervezas">
+      <div *ngFor="let roja of cervezasRojas" class="card mt-2 mr-2" style="width: 18rem;">
+        <img [src]="roja.foto" class="card-img-top imagen">
+        <div class="card-body">
+          <h5 class="card-title">{{roja.nombre}}</h5>
+          <p class="card-text">{{roja.detalle}}</p>
+          <a  class="btn btn-primary">{{roja.pie}}</a>
+        </div>
+      </div>
+    </div>
+  </div>

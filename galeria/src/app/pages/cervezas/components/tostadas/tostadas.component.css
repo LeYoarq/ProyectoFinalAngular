@@ -1,0 +1,8 @@
+.container-cervezas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-ancho_tabla-width {
+    width: 90%;
+}

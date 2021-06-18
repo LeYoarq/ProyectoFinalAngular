@@ -1,0 +1,50 @@
+<div
+  class="container-header align-items-center"
+  style="border: solid 1px #b7defa; height: 65px; background-color: #e3f2fd;"
+>
+  <span class="span-image"
+    ><img
+      src="../../../../assets/images/logo-leidy.png"
+      height="100%"
+      alt="Logo Leidy"
+      class="image-logo"
+  /></span>
+  <h1>Tipos de Cerveza</h1>
+  <span>
+    Bienvenido usuario
+  </span>
+</div>
+<!-- ******** NAVBAR ******* -->
+<nav
+  class="navbar navbar-expand navbar-light"
+  style="background-color: #e3f2fd"
+>
+  <div
+    id="navbarNavDropdown"
+    class="container-list"
+  >
+    <ul class="navbar-nav justify-content-center">
+      <li class="nav-item active">
+        <div class="dropdown">
+          <a class="nav-link dropdown-toggle">CERVEZAS </a>
+          <div class="dropdown-content">
+            <a [routerLink]="['/home/cervezas-rubias']">Rubias</a>
+            <a [routerLink]="['/home/cervezas-tostadas']">Tostadas</a>
+            <a [routerLink]="['/home/cervezas-rojas']">Rojas</a>
+
+          </div>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <div class="dropdown">
+          <a class="nav-link dropdown-toggle">CV </a>
+          <div class="dropdown-content">
+            <a href="https://leyoarq.github.io/CMV/cmv_publico" target="_blank">Leidy</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <button class="btn btn-secondary" (click)="cambiarModo()">Cambiar modo</button>
+  </div>
+</nav>
+

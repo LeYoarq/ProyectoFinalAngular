@@ -1,0 +1,22 @@
+<div class="container-fluid mt-3 container-ancho_tabla-width">
+  <div class="row">
+      <div class="d-flex justify-content-start">
+          <h2>CERVEZAS RUBIAS</h2>
+      </div>
+  </div>
+  <div class="container-cervezas">
+    <div *ngFor="let rubia of cervezasRubias" class="card mt-2 mr-2" style="width: 18rem;">
+        <img [src]="rubia.foto" class="card-img-top imagen">
+      <div class="card-body">
+        <h5 class="card-title">{{rubia.nombre}}</h5>
+        <p class="card-text">{{rubia.detalle}}</p>
+        <a  class="btn btn-primary">{{rubia.pie}}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
